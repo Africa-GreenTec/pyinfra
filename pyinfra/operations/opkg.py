@@ -30,6 +30,7 @@ def opkg(command, force=False):
     return " ".join(args)
 
 
+# TODO: implement install from .ipk file
 # @operation()
 # def deb(src, present=True, force=False):
 #     """
