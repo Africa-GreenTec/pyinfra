@@ -127,6 +127,7 @@ if __name__ == "__main__":
                 "vagrant = pyinfra.connectors.vagrant",
                 "winrm = pyinfra.connectors.winrm",
                 "terraform = pyinfra.connectors.terraform",
+                "dummy = pyinfra.connectors.dummy",
             ],
         },
         install_requires=INSTALL_REQUIRES,
